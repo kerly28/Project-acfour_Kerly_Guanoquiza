@@ -1,5 +1,6 @@
-﻿//PRE: EL programa demana introduïr 4 números naturals
+//PRE: EL programa demana introduïr 4 números naturals
 using System;
+
 namespace ExamenSorpresa
 {
     public class Program
@@ -40,3 +41,5 @@ namespace ExamenSorpresa
     }
 }
 //POST: El programa mostra els 4 números introduïts
+
+
