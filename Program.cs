@@ -33,7 +33,11 @@ namespace ExamenSorpresa
                 }
                 else if (i==3)
                 {
-                    Console.WriteLine("Els números introduïts són: ");
+                    //ordenem els números de manera descendent
+                    Array.Sort(numbers);
+                    Array.Reverse(numbers);         
+
+                    Console.WriteLine("Els números introduïts ordenats de manera descendent: ");
                     for (int j = 0; j < 4; j++)
                     {
                         Console.WriteLine(numbers[j]);
@@ -45,4 +49,5 @@ namespace ExamenSorpresa
         }
     }
 }
-//POST: El programa mostra els 4 números introduïts
+//POST: El programa mostra els 4 números introduïts ordenada de manera descendent
+
